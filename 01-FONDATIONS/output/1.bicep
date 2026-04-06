@@ -3,9 +3,9 @@ param locations array = [
   'westus'
 ]
 
-output result array = [
+output result array = [ // Output will be [{"location":"eastus"},{"location":"westus"}]
   for loc in locations: {
-    location: loc
+    location: loc 
   }
 ]
 

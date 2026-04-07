@@ -3,7 +3,7 @@ Connect-AzAccount -Subscription 'f8d17dee-320f-4765-a0df-a0251ececb1a'
 
 $Context = Get-AzSubscription -SubscriptionId "f8d17dee-320f-4765-a0df-a0251ececb1a"
 Set-AzContext $context 
-Get-AzResourceGroup  -Name 'rg-bicep04' 
+Get-AzResourceGroup  -Name 'rg-bicep06' 
 
   
 $timestamp = Get-Date -Format "yyyy-MM-dd_HH_mm"
@@ -11,7 +11,7 @@ $timestamp = Get-Date -Format "yyyy-MM-dd_HH_mm"
 New-AzResourceGroupDeployment `
   -Name deploy_$Timestamp `
   -ResourceGroupName "rg-bicep06" `
-  -TemplateFile '.\Loop-Index-Range-with-parameter.bicep' `
+  -TemplateFile '.\if-expression.bicep' `
   -Mode Incremental `
   -Verbose
 
@@ -29,7 +29,7 @@ $timestamp = Get-Date -Format "yyyy-MM-dd_HH_mm"
 New-AzResourceGroupDeployment `
   -Name deploy_$Timestamp `
   -ResourceGroupName "rg-bicep06" `
-  -TemplateFile '.\16.1.bicep' `
+  -TemplateFile '.\20.1.bicep' `
   -Mode Incremental `
   -Verbose
 
@@ -39,5 +39,5 @@ New-AzResourceGroupDeployment `
 New-AzsubscriptionDeployment `
   -location 'eastus' `
   -Name deploy_$Timestamp `
-  -TemplateFile .\1.bicep `
+  -TemplateFile .\20.1.bicep `
   -verbose 

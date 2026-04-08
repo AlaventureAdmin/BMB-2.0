@@ -1,9 +1,20 @@
 
 /*
+
+----------------------------------------------------------------
+Par: Alain Laventure
+Creer le: 2026-04-03
+
+Nom du fichier: template.bicep
+Description: Template Bicep de base pour la creation de ressources Azure.
+
+
+
   Déploiement au niveau subscription :
   - Création d’un nouveau Resource Group
   - Déploiement d’un Storage Account dans ce RG via un module Bicep
-*/
+----------------------------------------------------------------
+  */
 
 
 

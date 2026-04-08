@@ -26,7 +26,7 @@ New-AzResourceGroupDeployment `
 
 
 
-  $timestamp = Get-Date -Format "yyyy-MM-dd_HH_mm"
+$timestamp = Get-Date -Format "yyyy-MM-dd_HH_mm"
 # Lance le déploiement
 New-AzsubscriptionDeployment `
   -location 'eastus' `

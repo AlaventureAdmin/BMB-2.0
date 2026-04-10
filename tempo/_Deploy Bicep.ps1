@@ -31,5 +31,5 @@ New-AzResourceGroupDeployment `
 New-AzsubscriptionDeployment `
   -location 'eastus' `
   -Name deploy_$Timestamp `
-  -TemplateFile .\main.bicep `
+  -TemplateFile .\main-create-VM-With-PIP-or-NoPIP.bicep `
   -verbose 

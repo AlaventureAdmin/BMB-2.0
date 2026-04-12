@@ -29,7 +29,7 @@ $timestamp = Get-Date -Format "yyyy-MM-dd_HH_mm"
 New-AzsubscriptionDeployment `
   -location 'eastus' `
   -Name deploy_$Timestamp `
-  -TemplateFile .\tempo.bicep `
+  -TemplateFile .\main-create-vm.bicep `
   -verbose 
 
 

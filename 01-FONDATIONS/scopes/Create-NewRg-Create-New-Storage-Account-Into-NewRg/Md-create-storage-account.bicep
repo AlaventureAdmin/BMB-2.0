@@ -1,4 +1,7 @@
 /*
+----------------------------------------------------------------
+Par: Alain Laventure
+Creer le: 2026-04-03
 
 This is a module that is called from the main.bicep file to create a storage account
 in a new resource group that is also created in the main.bicep file. 

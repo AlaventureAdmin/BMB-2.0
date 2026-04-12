@@ -6,12 +6,9 @@ Créé le: 2026-04-03
 Nom du fichier: Mod-Create-VM-With-PublicIP-or-whitout-PublicIP.bicep
 
 Description:
-Template Bicep pour créer :
-- 1 NSG
-- 1 VNet avec subnets dynamiques
-- Des VMs Windows
-- AVEC ou SANS Public IP (contrôlé par paramètre)
-
+Template Bicep permettant de déployer une infrastructure réseau et des machines virtuelles Windows de manière flexible.
+Il crée dynamiquement un Network Security Group, un Virtual Network avec plusieurs subnets, ainsi que des VMs Windows, avec la possibilité d’attiver ou non l’attribution d’une Public IP via un simple paramètre.
+Le template est conçu pour être facilement réutilisable et extensible selon les besoins de déploiement.
 ----------------------------------------------------------------
 */
 

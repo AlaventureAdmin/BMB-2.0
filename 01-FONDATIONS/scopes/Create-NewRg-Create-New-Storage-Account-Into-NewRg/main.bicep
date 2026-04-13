@@ -4,8 +4,8 @@
 ----------------------------------------------------------------
 Par: Alain Laventure
 Creer le: 2026-04-03
+Nom du fichier: main.bicep
 
-Nom du fichier: mod-main-Create.bicep
 Description: Template Bicep de base pour la creation de ressources Azure.
 
 
@@ -37,7 +37,7 @@ resource newRgName 'Microsoft.Resources/resourceGroups@2024-11-01' = {
 }
 
 //we will create the storage Account  
-module storageModule 'Md-create-storage-account.bicep' = {
+module storageModule 'Mod-create-storage-account.bicep' = {
   name: 'storageDeployment'
   
   scope: newRgName //Deploy the storage account created in the module in the newRG, here RG5 

@@ -3,7 +3,7 @@
 Par: Alain Laventure
 Créé le: 2026-04-03
 
-Nom du fichier: Mod-Create-VM-With-PublicIP-or-whitout-PublicIP.bicep
+Nom du fichier: Recuperer-SubscriptionID-dans-une-Variable.bicep
 
 Description:
 Template Bicep déployé au scope Subscription permettant de récupérer et d’exposer l’identifiant de la souscription Azure en cours.

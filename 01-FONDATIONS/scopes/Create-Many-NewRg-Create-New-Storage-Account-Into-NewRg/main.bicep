@@ -3,9 +3,8 @@
 ----------------------------------------------------------------
 Par: Alain Laventure
 Creer le: 2026-04-08
-
 Nom du fichier: main.bicep
-Description: 
+
 Description:
 Ce template Bicep déploie dynamiquement plusieurs Resource Groups à partir d’un tableau de noms.
 Pour chaque Resource Group créé, un module est appelé afin de déployer un Storage Account.

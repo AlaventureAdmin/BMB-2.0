@@ -3,7 +3,7 @@
 Par: Alain Laventure
 Créé le: 2026-04-03
 
-Nom du fichier: Mod-Create-VM-With-PublicIP-or-whitout-PublicIP.bicep
+Nom du fichier: Scope Subscription (template entier).bicep
 
 Description:
 Template Bicep déployé au scope Subscription, servant à illustrer 
@@ -22,7 +22,7 @@ Utile pour les tests, l’apprentissage des scopes Bicep ou comme point de dépa
 targetScope = 'subscription'
 
 
-//variavle pour visual
+//variable pour visual
 
 var message = 'je suis au scope subscription'
 

@@ -3,7 +3,7 @@
 Par: Alain Laventure
 Créé le: 2026-04-03
 
-Nom du fichier: Mod-Create-VM-With-PublicIP-or-whitout-PublicIP.bicep
+Nom du fichier: Creer-Plusieurs-Resource-Group.bicep
 
 Description:
 Template Bicep déployé au scope Subscription permettant de créer dynamiquement plusieurs Resource Groups à partir d’une liste définie dans le code.

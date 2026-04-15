@@ -2,7 +2,7 @@
 ----------------------------------------------------------------
 Par: Alain Laventure
 Créé le: 2026-04-03
-
+#4
 Nom du fichier: Creer-Plusieurs-Resource-Group.bicep
 
 Description:

@@ -2,7 +2,7 @@
 ----------------------------------------------------------------
 Par: Alain Laventure
 Créé le: 2026-04-03
-
+#1
 Nom du fichier: Recuperer-SubscriptionID-dans-une-Variable.bicep
 
 Description:

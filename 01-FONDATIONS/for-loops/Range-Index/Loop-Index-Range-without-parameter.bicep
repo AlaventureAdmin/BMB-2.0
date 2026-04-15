@@ -30,7 +30,7 @@ param storageAccountName string = 'solulanstorage' //nom du storage account
 
 
 resource storageAccount 'Microsoft.Storage/storageAccounts@2021-04-01' = [
-  for i in range(2,4): {
+  for i in range(1,2): {
     // creation de plusieurs storage account avec index
     name: '${storageAccountName}${i}' // L’index i sert ici à rendre chaque storage account unique :
     location: location // location de la ressource
@@ -48,7 +48,7 @@ resource storageAccount 'Microsoft.Storage/storageAccounts@2021-04-01' = [
 // le 1er chiffre est la valeur de départ
 // le 2e chiffre est le nombre d’itérations
 
-//pour range(1,2) output est solulanstorage1
+//pour range(1,2) output est solulanstorage1, solulanstorage2
 //pour range(1,4) output est solulanstorage1, solulanstorage2, solulanstorage3, solulanstorage4
 //pour range (2,4) output est solulanstorage2, solulanstorage3, solulanstorage4, solulanstorage5
 //pour range (2,5) output est solulanstorage2, solulanstorage3, solulanstorage4, solulanstorage5, solulanstorage6

@@ -4,7 +4,7 @@
 Par: Alain Laventure
 Creer le: 2026-04-08
 Nom du fichier: Mod-Create-Storage-Account-into-NewRg.bicep
-
+#6
 This module called by the main template and create storage account 
 in each resource group that is created by the main template
 

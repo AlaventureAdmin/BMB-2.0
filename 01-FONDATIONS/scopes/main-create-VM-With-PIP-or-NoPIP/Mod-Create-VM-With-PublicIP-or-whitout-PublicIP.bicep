@@ -2,7 +2,7 @@
 ----------------------------------------------------------------
 Par: Alain Laventure
 Créé le: 2026-04-03
-
+#12
 Nom du fichier: Mod-Create-VM-With-PublicIP-or-whitout-PublicIP.bicep
 
 Description:

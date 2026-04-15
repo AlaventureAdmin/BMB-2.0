@@ -3,7 +3,7 @@
 Par: Alain Laventure
 Créé le: 2026-04-03
 Nom du fichier: Scope-par-default.bicep
-
+#3
 Template Bicep simple utilisé à des fins de test et de démonstration.
 Il illustre le déploiement au scope Resource Group (par défaut) et expose un output permettant de valider le contexte d’exécution du template.
 Idéal comme point de départ ou pour vérifier le comportement du scope lors des déploiements.

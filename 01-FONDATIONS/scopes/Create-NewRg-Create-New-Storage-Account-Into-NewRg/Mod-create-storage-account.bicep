@@ -3,7 +3,7 @@
 Par: Alain Laventure
 Creer le: 2026-04-03
 Nom du fichier: Mod-create-storage-account.bicep
-
+#8
 This is a module that is called from the main.bicep file to create a storage account
 in a new resource group that is also created in the main.bicep file. 
 

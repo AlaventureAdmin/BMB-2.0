@@ -2,7 +2,7 @@
 ----------------------------------------------------------------
 Par: Alain Laventure
 Créé le: 2026-04-03
-
+#2
 Nom du fichier: Scope Subscription (template entier).bicep
 
 Description:

@@ -7,8 +7,6 @@ Nom du fichier:
 Loop-Index-Range-with-parameter.bicep
 
 Description:
-/*
-Description:
 Ce template utilise une boucle `for` avec la fonction `range()` pour créer
 dynamiquement plusieurs comptes de stockage à partir d’un nombre défini
 par le paramètre `storageCount`.

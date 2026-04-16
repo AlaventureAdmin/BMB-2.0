@@ -7,8 +7,6 @@ Nom du fichier:
 Loop-Index-Range-without-parameter.bicep
 
 Description:
-/*
-Description:
 Ce template démontre l’utilisation d’une boucle `for` en Bicep pour automatiser
 la création de plusieurs comptes de stockage à partir d’une seule définition
 de ressource.

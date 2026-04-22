@@ -11,16 +11,9 @@ $timestamp = Get-Date -Format "yyyy-MM-dd_HH_mm"
 New-AzResourceGroupDeployment `
   -Name deploy_$Timestamp `
   -ResourceGroupName "rg-bicep06" `
-  -TemplateFile '.\Loop-Index-Range-with-parameter.bicep' `
+  -TemplateFile '.\5.Example-FOR-IF.bicep' `
   -Mode Incremental `
   -Verbose
 
-$timestamp = Get-Date -Format "yyyy-MM-dd_HH_mm"
-# Lance le déploiement
-New-AzResourceGroupDeployment `
-  -Name deploy_$Timestamp `
-  -ResourceGroupName "rg-bicep06" `
-  -TemplateFile '.\Loop-Index-Range-without-parameter.bicep' `
-  -Mode Incremental `
-  -Verbose
+
 

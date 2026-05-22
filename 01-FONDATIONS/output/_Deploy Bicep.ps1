@@ -11,7 +11,7 @@ $timestamp = Get-Date -Format "yyyy-MM-dd_HH_mm"
 New-AzResourceGroupDeployment `
   -Name deploy_$Timestamp `
   -ResourceGroupName "rg-bicep06" `
-  -TemplateFile '.\Loop-Index-Range-with-parameter.bicep' `
+  -TemplateFile '.\temp09.bicep' `
   -Mode Incremental `
   -Verbose
 

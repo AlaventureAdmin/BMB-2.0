@@ -3,7 +3,7 @@ targetScope = 'subscription'
 param rgNames array = [
   'rg01'
   'rg02'
-  'rg03'
+  'rg03' 
 ]
 
 /*

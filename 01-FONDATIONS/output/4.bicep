@@ -1,11 +1,21 @@
-param servers array = ['app', 'sql']
+param locations array = [
+  'eastus'
+  'westus'
+]
 
-output name array = [
-  for s in servers: '${s}-SRV'
+output result array = [ // Output will be [{"location":"eastus"},{"location":"westus"}]
+  for loc in locations: {
+    location: loc 
+  }
 ]
 
 /*
 Name             Type                       Value
 ===============  =========================  ==========
-  name             Array                      ["app-SRV","sql-SRV"]
+result           Array                      [{"location":"eastus"},{"location":"westus"}] 
+
 */
+
+
+
+

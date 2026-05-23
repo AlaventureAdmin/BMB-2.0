@@ -25,8 +25,33 @@ that combines the name and size separated by a delimiter.
 
 */
 
-
-output result array = [
+output result1 array = [
 for vm in vms:split(vm,'|')[0]
 ]
 
+output result2 array = [
+for vm in vms: {
+VmName: split(vm,'|')[0]
+}
+]
+
+output result3 array = [
+for vm in vms:split(vm,'|')[1]
+]
+
+output result4 array = [
+for vm in vms: {
+VmSize: split(vm,'|')[1]
+}
+]
+
+/*
+
+Outputs                 :
+Name             Type                       Value
+===============  =========================  ==========
+  result1          Array                      ["vm1","vm2"]
+  result2          Array                      [{"VmName":"vm1"},{"VmName":"vm2"}]
+  result3          Array                      ["B2s","B2ms"]
+  result4          Array                      [{"VmSize":"B2s"},{"VmSize":"B2ms"}]
+*/

@@ -1,3 +1,8 @@
+/*
+Construit une liste d’objets contenant chaque utilisateur et son index 
+sous forme d’identifiant numérique.
+*/
+
 param users array = ['alain', 'bob', 'charlie']
 
 output result array = [

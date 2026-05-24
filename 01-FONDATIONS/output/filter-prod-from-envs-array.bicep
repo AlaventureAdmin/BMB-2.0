@@ -1,3 +1,8 @@
+/*
+Filtre une liste d’environnements pour ne conserver que l’entrée prod,
+en remplaçant les autres par une chaîne vide.
+*/
+
 param envs array = [
   'dev'
   'test'

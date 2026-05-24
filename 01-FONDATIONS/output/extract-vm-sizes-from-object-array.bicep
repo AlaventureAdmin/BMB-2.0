@@ -1,3 +1,9 @@
+/*
+Extrait uniquement la propriété size de chaque VM pour produire un tableau des tailles.
+ 
+
+*/
+
 param vms array = [
   {
     name: 'vm1'

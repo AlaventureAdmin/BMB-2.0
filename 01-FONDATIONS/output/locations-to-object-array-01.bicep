@@ -1,3 +1,5 @@
+/* Transforme une liste de chaînes locations en une liste d’objets { location: <valeur> } */
+
 param locations array = [
   'eastus'
   'westus'

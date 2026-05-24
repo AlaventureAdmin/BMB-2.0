@@ -1,3 +1,9 @@
+/*
+Construit des noms de sous-réseaux indexés à partir d’une liste 
+de valeurs, sous forme de chaînes ou d’objets.
+
+*/
+
 param subs array = [
 
   's1'

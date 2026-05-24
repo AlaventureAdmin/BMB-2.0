@@ -1,3 +1,8 @@
+/*
+Filtre une liste d’environnements pour ne conserver que ceux correspondant 
+à une valeur cible, les autres devenant null.
+*/
+
 param envs array = [
   'dev'
   'test'

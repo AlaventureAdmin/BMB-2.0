@@ -6,16 +6,9 @@ Creer le: 2026-04-29
  
 
 Description (Output):
-L’output `result` est un tableau construit dynamiquement à partir du
-paramètre `locations`. À l’aide d’une boucle `for`, Bicep parcourt chaque
-élément du tableau `locations` et génère un nouvel objet contenant la
-propriété `location`.
+Transforme une liste de chaînes locations en une liste d’objets { location: <valeur> }
 
-Lors de l’exécution du déploiement, cet output permet de retourner une
-vue transformée des données d’entrée. Il est évalué côté ARM au moment
-du déploiement et peut être consommé par PowerShell, Azure CLI ou un
-autre template Bicep parent pour des traitements ou validations
-supplémentaires.
+
 ----------------------------------------------------------------
 */
 

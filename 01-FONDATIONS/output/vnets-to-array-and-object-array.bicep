@@ -1,3 +1,8 @@
+/*
+Produit soit un tableau brut des noms de vnets, soit un tableau d’objets 
+contenant chaque nom sous la clé VnetName.
+*/
+
 param vnets array = [
 
   'vnet1'

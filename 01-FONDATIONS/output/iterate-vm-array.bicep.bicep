@@ -1,3 +1,9 @@
+/*
+Retourne un tableau identique à l’entrée en itérant sur chaque 
+VM sans modifier les valeurs.
+*/
+
+
 param vms array = ['vm', 'vm', 'vm']
 
 

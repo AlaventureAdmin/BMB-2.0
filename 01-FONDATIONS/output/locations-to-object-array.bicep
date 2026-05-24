@@ -1,3 +1,8 @@
+/*
+Transforme une liste de régions en une liste d’objets contenant la propriété location.
+
+*/
+
 param locations array = [
   'eastus'
   'westus'

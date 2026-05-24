@@ -1,3 +1,10 @@
+/*
+
+Génère des noms de VM numérotés à partir d’un préfixe, 
+sous forme de chaînes simples ou d’objets.
+
+*/
+
 param vms array = [
   'vm'
   'vm'

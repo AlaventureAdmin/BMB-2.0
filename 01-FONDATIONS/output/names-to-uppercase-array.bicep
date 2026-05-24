@@ -1,4 +1,8 @@
 
+/*
+Transforme une liste de noms en une liste équivalente mais convertie en majuscules
+
+*/
 
 
 param names array =[

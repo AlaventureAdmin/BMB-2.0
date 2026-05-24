@@ -1,3 +1,8 @@
+/*
+Construit un tableau de chaînes indexées et une version équivalente 
+sous forme d’objets contenant la valeur formatée.
+*/
+
 param items array = [
   'a'
   'b'

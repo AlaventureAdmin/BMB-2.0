@@ -1,3 +1,8 @@
+/*
+Construit une liste d’objets contenant chaque nom de resource group et son index numérique.
+
+*/
+
 param rgNames array = [
   'rg01'
   'rg02'

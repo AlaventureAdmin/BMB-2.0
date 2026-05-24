@@ -1,3 +1,9 @@
+/*
+Retourne un tableau où seules les valeurs situées à un index pair sont conservées,
+les autres devenant null.
+
+*/
+
 param values array = [10,20,30]
 
 output evenindex array = [

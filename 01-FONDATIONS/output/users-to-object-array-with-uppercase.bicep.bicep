@@ -1,3 +1,9 @@
+/*
+
+Construit une liste d’objets contenant l’index de chaque utilisateur et son nom converti en majuscules.
+
+*/
+
 param users array = ['alain', 'bob', 'charlie']
 
 output result array = [

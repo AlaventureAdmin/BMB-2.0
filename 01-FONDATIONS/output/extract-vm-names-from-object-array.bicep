@@ -1,3 +1,8 @@
+/*
+Extrait uniquement le champ name de chaque objet VM pour produire un tableau de noms.
+
+*/
+
 param vms array = [
   {
     name: 'vm1'

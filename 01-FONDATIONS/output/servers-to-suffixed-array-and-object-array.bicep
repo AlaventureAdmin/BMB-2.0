@@ -1,3 +1,10 @@
+/*
+Génère un tableau de noms de serveurs suffixés avec -srv, puis une version 
+équivalente sous forme d’objets.
+
+
+*/
+
 param servers array = [
   'web'
   'sql'

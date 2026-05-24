@@ -1,3 +1,9 @@
+/*
+Sépare chaque entrée vm|size pour produire des tableaux contenant 
+soit les noms de VM, soit les tailles, sous forme brute 
+ou sous forme d’objets.
+*/
+
 param vms array = [
 
 'vm1|B2s'

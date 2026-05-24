@@ -1,3 +1,8 @@
+/*
+Produit soit un tableau de noms en majuscules, soit un tableau
+d’objets { name: <MAJUSCULE> } à partir d’une liste de noms
+*/
+
 param names array = [
   'vm1'
   'vm2'

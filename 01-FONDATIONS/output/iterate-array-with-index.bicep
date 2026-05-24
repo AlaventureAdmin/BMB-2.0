@@ -1,3 +1,8 @@
+/*
+Retourne un tableau identique à l’entrée en itérant avec un index, 
+sans modifier les valeurs.
+*/
+
 param items array = ['a', 'b', 'c']
 
 output indexed array = [

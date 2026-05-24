@@ -1,3 +1,8 @@
+/*
+Construit un tableau où chaque élément combine son index et
+sa valeur sous la forme "index-valeur".
+*/
+
 param items array = ['a', 'b', 'c']
 
 
